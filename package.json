@@ -4,7 +4,8 @@
   "private": true,
   "description": "Matthew's Personal Website",
   "scripts": {
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "format:ci": "prettier -c ."
   },
   "homepage": "https://mklein994.github.io",
   "devDependencies": {
