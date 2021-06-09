@@ -4,6 +4,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "16.x"
+      - run: npm ci
+      - run: npm run format:ci
       - run: mkdir dist
       - run: cp index.html dist/404.html
       - uses: peaceiris/actions-gh-pages@v3
