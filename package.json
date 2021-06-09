@@ -6,5 +6,8 @@
   "scripts": {
     "format": "prettier -w ."
   },
-  "homepage": "https://mklein994.github.io"
+  "homepage": "https://mklein994.github.io",
+  "devDependencies": {
+    "prettier": "^2.3.1"
+  }
 }
